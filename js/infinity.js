@@ -16,7 +16,7 @@ window.onload = function() {
 
   // process
   const volume = length * width * height
-  const dimensions = "<ul>\n<li>length = " + length + "</li>\n<li>width = " + width + "</li>\n<li>height = " + height"</li>\n</ul>"
+  const dimensions = "<ul>\n<li>length = " + length + "</li>\n<li>width = " + width + "</li>\n<li>height = " + height + "</li>\n</ul>"
 
   //output
   document.getElementById('dimensions').innerHTML = dimensions
